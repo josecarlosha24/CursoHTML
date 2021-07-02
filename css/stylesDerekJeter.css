@@ -1,0 +1,76 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/* Para resetear el CSS */
+
+body {
+    font-size: 62.5%;
+}
+
+h1 {
+    font: normal 2.4em Verdana, Geneva, sans-serif ;
+    background: -moz-linear-gradient(top, rgba(0, 0, 94, 0.987), white);
+    width: 30%;
+    border-radius: 10px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    box-shadow: rgba(0, 0, 94, 0.987) 5px 5px 10px;
+    text-shadow: white 1px 1px 1px;
+}
+
+h2 {
+    font: bold 1.7em Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    color: black;
+}
+
+section{
+    width: 91%;
+    border-top: 1px dashed gray;
+    margin: 15px auto;
+}
+
+figure {
+    float: left;
+}
+
+figure img {
+    padding: 3px;
+    background-color: rgba(0, 0, 94, 0.987);
+    border-radius: 20px;
+    -moz-transition: -moz-transform 0.3s ease-in-out 0.1s;
+    box-shadow:gray 4px 4px;
+}
+
+figure img:hover {
+    -moz-transform: scale(1.1);
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer {
+    clear: both;
+}
+
+footer p {
+    font: 1.6em Georgia, "Times New Roman", Times, serif;
+    color: gray;
+    margin: 10px 8px;
+}
