@@ -1,0 +1,29 @@
+#cabeceraweb {
+    background-color: blue;
+}
+
+#navegacionprincipal {
+    background-color: red;
+}
+
+#barralateral {
+    background-color: green;
+    float: left;
+    height: 1300px;
+}
+
+#contenidoprincipal {
+    background-color: purple;
+    margin-left: 220px;
+}
+
+#pieprincipal {
+    background-color: yellow;
+    clear: both;
+    margin-top: 50px;
+}
+
+li {
+    background-color: yellow;
+    display: inline;
+}
